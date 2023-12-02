@@ -543,10 +543,6 @@ video {
   margin-inline-end: 4rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -601,40 +597,8 @@ video {
   background-image: url('../images/hero-bg.png');
 }
 
-.bg-tb {
-  background-size: 1050px;
-}
-
 .bg-mb {
   background-size: 780px;
-}
-
-.bg-\[center_-600px\] {
-  background-position: center -600px;
-}
-
-.bg-\[center_-400px\] {
-  background-position: center -400px;
-}
-
-.bg-\[center_-500px\] {
-  background-position: center -500px;
-}
-
-.bg-\[center_-00px\] {
-  background-position: center -00px;
-}
-
-.bg-\[center_-350px\] {
-  background-position: center -350px;
-}
-
-.bg-\[center_-300px\] {
-  background-position: center -300px;
-}
-
-.bg-\[center_-0px\] {
-  background-position: center -0px;
 }
 
 .bg-\[center_-450px\] {
