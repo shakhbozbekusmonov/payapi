@@ -533,3 +533,200 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-16 {
+  margin-inline-end: 4rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[1130px\] {
+  max-width: 1130px;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
+.bg-\[\#EDF3F8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 243 248 / var(--tw-bg-opacity));
+}
+
+.bg-primaryPink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(186 66 112 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/images\/hero-bg\.png\'\)\] {
+  background-image: url('../images/hero-bg.png');
+}
+
+.bg-tb {
+  background-size: 1050px;
+}
+
+.bg-mb {
+  background-size: 780px;
+}
+
+.bg-\[center_-600px\] {
+  background-position: center -600px;
+}
+
+.bg-\[center_-400px\] {
+  background-position: center -400px;
+}
+
+.bg-\[center_-500px\] {
+  background-position: center -500px;
+}
+
+.bg-\[center_-00px\] {
+  background-position: center -00px;
+}
+
+.bg-\[center_-350px\] {
+  background-position: center -350px;
+}
+
+.bg-\[center_-300px\] {
+  background-position: center -300px;
+}
+
+.bg-\[center_-0px\] {
+  background-position: center -0px;
+}
+
+.bg-\[center_-450px\] {
+  background-position: center -450px;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-\[45px\] {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-primaryWhite {
+  --tw-text-opacity: 1;
+  color: rgb(251 252 254 / var(--tw-text-opacity));
+}
+
+.text-secondaryBlue {
+  --tw-text-opacity: 1;
+  color: rgb(54 83 107 / var(--tw-text-opacity));
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.active\:bg-secondaryPink:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 109 151 / var(--tw-bg-opacity));
+}
+
+.active\:opacity-100:active {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:bg-tb {
+    background-size: 1050px;
+  }
+
+  .md\:bg-\[center_-600px\] {
+    background-position: center -600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-contain {
+    background-size: contain;
+  }
+
+  .lg\:bg-\[calc\(50\%\+600px\)_-200px\] {
+    background-position: calc(50% + 600px) -200px;
+  }
+}
