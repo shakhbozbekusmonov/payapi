@@ -2,6 +2,13 @@
 module.exports = {
     content: ["./*.{html, js}"],
     theme: {
+        backgroundSize: {
+            auto: "auto",
+            cover: "cover",
+            contain: "contain",
+            tb: "1050px",
+            mb: "780px",
+        },
         extend: {
             colors: {
                 primaryPink: "#BA4270",
